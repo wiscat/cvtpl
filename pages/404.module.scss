@@ -1,0 +1,23 @@
+.box404 {
+  padding-top: 40vh;
+  height: 100%;
+
+  .title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding-left: 10px;
+
+    span {
+      display: inline-block;
+      background: linear-gradient(white, #ffc6c6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+  }
+}

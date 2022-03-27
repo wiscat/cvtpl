@@ -1,0 +1,55 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+html, body, #__next, .layout {
+  height: 100%;
+}
+
+a {
+  color: #673ab7;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media print {
+  .noprint {
+    visibility: hidden;
+  }
+}
+
+
+@keyframes color-change {
+  0% { color: #73224b; }
+  20% { color: #824747; }
+  40% { color: #405877; }
+  60% { color: #923d67; }
+  80% { color: #a97d92; }
+  100% { color: #73224b; }
+}
+
+@keyframes backFadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@import 'public/assets/fonts/AtkinsonHyperlegible/font.css';
